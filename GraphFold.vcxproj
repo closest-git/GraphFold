@@ -96,8 +96,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -145,11 +144,21 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\gord\Flow.h" />
+    <ClInclude Include="src\gord\GMDO.h" />
+    <ClInclude Include="src\gord\gord.h" />
+    <ClInclude Include="src\gord\GORD_util.h" />
+    <ClInclude Include="src\gord\MLGP.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GraphFold.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\gord\Flow.cpp" />
+    <ClCompile Include="src\gord\GMDO.cpp" />
+    <ClCompile Include="src\gord\GORD_util.cpp" />
+    <ClCompile Include="src\gord\MLGP.cpp" />
+    <ClCompile Include="src\gord\MLGP_2.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

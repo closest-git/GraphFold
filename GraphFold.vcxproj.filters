@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\gord">
+      <UniqueIdentifier>{f2b46423-8ed9-4290-bb2e-48b9ea76f9f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,13 +27,43 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\gord\Flow.h">
+      <Filter>源文件\gord</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gord\GMDO.h">
+      <Filter>源文件\gord</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gord\gord.h">
+      <Filter>源文件\gord</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gord\GORD_util.h">
+      <Filter>源文件\gord</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gord\MLGP.h">
+      <Filter>源文件\gord</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GraphFold.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gord\Flow.cpp">
+      <Filter>源文件\gord</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gord\GMDO.cpp">
+      <Filter>源文件\gord</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gord\GORD_util.cpp">
+      <Filter>源文件\gord</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gord\MLGP.cpp">
+      <Filter>源文件\gord</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gord\MLGP_2.cpp">
+      <Filter>源文件\gord</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
